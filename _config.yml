@@ -1,6 +1,9 @@
-remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "mint"
-name: "Oana Vesa"
-description: "Grad Student"
+#remote_theme: "mmistakes/minimal-mistakes"
+#minimal_mistakes_skin: "mint"
 
 theme: jekyll-theme-minimal
+name: "Oana Vesa"
+description: "Grad Student"
+timezone: America/Denver
+
+Testing Testing
