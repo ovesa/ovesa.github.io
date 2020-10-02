@@ -2,3 +2,5 @@ remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "mint"
 name: "Oana Vesa"
 description: "Grad Student"
+
+theme: jekyll-theme-minimal
