@@ -42,29 +42,6 @@ gems:
 locale: "en-US"
 
 
-# Site Author
-author:
-  name: "Oana Vesa"
-  avatar: "/images/avatar.png" #path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio 	: "I'm a 3rd year graduate student. I study the propagation and properties of gravity waves with the aim of using them as diagnostics for the average magnetic field."
-  location: "NM"
-  email:
-  links:
-    #- label: "Email"
-      #icon: "fas fa-fw fa-envelope-square"
-      # url: ""
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://ovesa.github.io"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/ovesa/"
-# Site Footer
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/ovesa/"
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
