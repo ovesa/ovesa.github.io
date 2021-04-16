@@ -24,7 +24,7 @@ title: Oana Vesa
 subtitle: Astronomy PhD Student
 email: ovesa@nmsu.edu
 #description: "I'm a 3rd year graduate student. I study the propagation and properties of gravity waves with the aim of using them as diagnostics for the average magnetic field."
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/page" # the subpath of your site, e.g. /blog
 url: "https://ovesa.github.io" #"localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
 # use https://ovesa.github.io afterwards
 #twitter_username: jekyllrb
