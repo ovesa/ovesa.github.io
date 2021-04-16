@@ -20,8 +20,8 @@
 
 # > # this means to ignore newlines until "baseurl:"
 
-title: Oana Vesa
-subtitle: Astronomy PhD Student
+title: Astronomy PhD Student
+subtitle: Solar Physics
 email: ovesa@nmsu.edu
 #description: "I'm a 3rd year graduate student. I study the propagation and properties of gravity waves with the aim of using them as diagnostics for the average magnetic field."
 baseurl: "/page" # the subpath of your site, e.g. /blog
@@ -30,6 +30,12 @@ url: "https://ovesa.github.io" #"localhost:4000" # the base hostname & protocol 
 #twitter_username: jekyllrb
 github_username:  ovesa
 description: The ramblings of an astronomy graduate student
+permalink: /blog/:year/:month/:day/:title/
+
+
+author:
+  name: Oana Vesa
+  github: ovesa
 
 # Build settings
 #theme: minima
