@@ -31,6 +31,7 @@ url: "https://ovesa.github.io" #"localhost:4000" # the base hostname & protocol 
 github_username:  ovesa
 description: The ramblings of an astronomy graduate student
 permalink: /blog/:year/:month/:day/:title/
+show_excerpts: true # set to true to show excerpts on the homepage
 
 
 author:
@@ -39,7 +40,9 @@ author:
 
 # Build settings
 #theme: minima
-theme: jekyll-theme-dinky
+remote_theme: samarsault/plainwhite-jekyll
+theme: plainwhite
+#theme: jekyll-theme-dinky
 #minimal_mistakes_skin: "mint"
 gems:
   - jekyll-feed
