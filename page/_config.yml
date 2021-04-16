@@ -53,10 +53,10 @@ plainwhite:
     - page
     - post
   navigation:
-    - title: My Work
+    - title: Current Research
       url: "/my-work"
-    - title: Resume
-      url: "/resume"
+    #- title: Resume
+     # url: "/resume"
   # generate social links in footer
   social_links:
     #twitter: samasault
