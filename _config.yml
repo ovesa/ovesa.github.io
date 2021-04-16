@@ -2,8 +2,9 @@
 #minimal_mistakes_skin: "mint"
 
 theme: jekyll-theme-dinky
-name: "Oana Vesa"
+name: Oana Vesa
+url: "ttps://ovesa.github.io"
 subtitle: Astronomy PhD Student
 description: The ramblings of an astronomy graduate student
-timezone: America/Denver
+permalink: /:categories/:year/:month/:day/:title/
 
