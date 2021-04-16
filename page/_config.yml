@@ -25,7 +25,7 @@ subtitle: Astronomy PhD Student
 email: ovesa@nmsu.edu
 #description: "I'm a 3rd year graduate student. I study the propagation and properties of gravity waves with the aim of using them as diagnostics for the average magnetic field."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ovesa.github.io" #"localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
 # use https://ovesa.github.io afterwards
 #twitter_username: jekyllrb
 github_username:  ovesa
@@ -50,12 +50,12 @@ author:
   location: "NM"
   email:
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+    #- label: "Email"
+      #icon: "fas fa-fw fa-envelope-square"
       # url: ""
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://ovesa.github.io"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ovesa/"
