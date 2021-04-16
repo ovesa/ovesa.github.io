@@ -39,8 +39,8 @@ author:
 
 # Build settings
 #theme: minima
-theme: minimal-mistakes-jekyll 
-minimal_mistakes_skin: "mint"
+theme: jekyll-theme-dinky
+#minimal_mistakes_skin: "mint"
 gems:
   - jekyll-feed
 
