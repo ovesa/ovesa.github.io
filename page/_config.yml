@@ -52,6 +52,11 @@ plainwhite:
     #- home
     - page
     - post
+  navigation:
+    - title: My Work
+      url: "/my-work"
+    - title: Resume
+      url: "/resume"
   # generate social links in footer
   social_links:
     #twitter: samasault
@@ -68,7 +73,6 @@ plainwhite:
     #telegram: jekyll
     #gitlab: jekyll
     #email: jekyll
-
 
 # Build settings
 #theme: minima

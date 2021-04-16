@@ -2,7 +2,7 @@
 layout: post
 title:  "Introduction"
 date:   2021-04-16 4:06
-categories: {Introduction, research areas}
+categories: Introduction, research areas
 ---
 
 # Welcome
