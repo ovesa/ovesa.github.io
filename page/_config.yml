@@ -73,7 +73,7 @@ plainwhite:
 # Build settings
 #theme: minima
 remote_theme: samarsault/plainwhite-jekyll
-theme: plainwhite
+#theme: plainwhite
 #theme: jekyll-theme-dinky
 #minimal_mistakes_skin: "mint"
 gems:
