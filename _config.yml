@@ -3,7 +3,7 @@
 
 theme: jekyll-theme-dinky
 name: Oana Vesa
-url: "ttps://ovesa.github.io"
+url: "https://ovesa.github.io"
 subtitle: Astronomy PhD Student
 description: The ramblings of an astronomy graduate student
 permalink: /:categories/:year/:month/:day/:title/
