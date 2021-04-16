@@ -28,15 +28,47 @@ baseurl: "/page" # the subpath of your site, e.g. /blog
 url: "https://ovesa.github.io" #"localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
 # use https://ovesa.github.io afterwards
 #twitter_username: jekyllrb
-github_username:  ovesa
-description: The ramblings of an astronomy graduate student
+#github_username:  ovesa
+description: > # this means to ignore newlines until "show_exerpts:"
+  The ramblings of an astronomy graduate student
 permalink: /blog/:year/:month/:day/:title/
 show_excerpts: true # set to true to show excerpts on the homepage
 
 
-author:
-  name: Oana Vesa
-  github: ovesa
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+sass:
+  sass_dir: _sass
+plainwhite:
+  name: Oana
+  tagline: graduate student
+  date_format: "%b %-d, %Y"
+  sitemap: true # set to true to generate sitemap.xml content
+  search: true # set to true to enable searchbar
+  dark_mode: true # set to true to add dark mode toggle
+  portfolio_image: "assets/me.png" # the path from the base directory of the site to the image to display (no / at the start)
+  html_lang: "en" # set the lang attribute of the <html> tag for the pages. See here for a list of codes: https://www.w3schools.com/tags/ref_country_codes.asp
+  condensed_mobile:
+    #- home
+    - page
+    - post
+  # generate social links in footer
+  social_links:
+    #twitter: samasault
+    github:  ovesa
+    #linkedIn: in/
+    #rss: rss
+    #dribbble: jekyll
+    #flickr:   jekyll
+    #instagram: jekyll
+    #pinterest: jekyll
+    #youtube: jekyll
+    #facebook: jekyll
+    #soundcloud: jekyll
+    #telegram: jekyll
+    #gitlab: jekyll
+    #email: jekyll
+
 
 # Build settings
 #theme: minima
@@ -50,6 +82,9 @@ gems:
 #site setting
 locale: "en-US"
 
+plugins:
+  - jekyll-seo-tag
+#  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -59,12 +94,12 @@ locale: "en-US"
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-exclude:
+#exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
-   - gemfiles/
-   - Gemfile
-   - Gemfile.lock
+#   - gemfiles/
+ #  - Gemfile
+ #  - Gemfile.lock
 #   - node_modules/
 #   - vendor/bundle/
 #   - vendor/cache/
