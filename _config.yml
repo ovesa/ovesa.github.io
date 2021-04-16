@@ -1,10 +1,10 @@
 #remote_theme: "mmistakes/minimal-mistakes"
 #minimal_mistakes_skin: "mint"
 
-theme: jekyll-theme-minimal
-name: "Oana Vesa"
-description: "Grad Student"
-timezone: America/Denver
+theme: jekyll-theme-dinky
+name: Oana Vesa
+url: "https://ovesa.github.io"
+subtitle: Astronomy PhD Student
+description: The ramblings of an astronomy graduate student
+permalink: /:categories/:year/:month/:day/:title/
 
-
-Hi all! I am a 3rd year Ph.D student at New Mexico State University, where I study how waves/oscillations and atmospheric dynamics affect the solar atmosphere.
