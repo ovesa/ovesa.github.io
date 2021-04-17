@@ -7,7 +7,7 @@
       "sub-titile-lower" : "",
       "categories" : "Introduction,researchareas",
       "tags"     : "",
-      "url"      : "/page/blog/2021/04/16/Introduction/",
+      "url"      : "/blog/2021/04/16/Introduction/",
       "date"     : "2021-04-16 04:06:00 -0600",
       "content"     : "My name is Oana. I am an astronomy PhD student at New Mexico State University. I currently study MHD waves and oscillations in the lower solar atmosphere. When I am not doing research, you can find..."
     } ,
@@ -19,7 +19,7 @@
       "sub-titile-lower" : "",
       "categories" : "jekyllupdate",
       "tags"     : "",
-      "url"      : "/page/blog/2020/10/02/welcome-to-jekyll/",
+      "url"      : "/blog/2020/10/02/welcome-to-jekyll/",
       "date"     : "2020-10-02 13:11:09 -0600",
       "content"     : "You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run je..."
     } 

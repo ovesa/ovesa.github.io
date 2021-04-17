@@ -80,15 +80,13 @@ remote_theme: samarsault/plainwhite-jekyll
 #theme: plainwhite
 #theme: jekyll-theme-dinky
 #minimal_mistakes_skin: "mint"
-gems:
-  - jekyll-feed
 
 #site setting
 locale: "en-US"
 
 plugins:
   - jekyll-seo-tag
-#  - jekyll-feed
+ # - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
