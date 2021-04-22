@@ -2,12 +2,11 @@
 layout: post
 title:  "IPython Path"
 date:   2021-04-22 4:42
-categories: terminal,ipython,python,directories
+categories: terminal, ipython, python, directories
 ---
 
 
 # IPython Path
-
 
 Earlier today I tried running a JupyterLab converted executable python script in the terminal using ipython. However, my bash shell kept reading in an incorrect ipython path (that is probably tied to the first time I downloaded python). This meant that all of my regular python libraries could not be found.... I learned that I have several python paths probably due to various user inflicted python installations. Probably should clean that up at some point, but to not upset the python deities I did the next best thing (in my opinion).
 
