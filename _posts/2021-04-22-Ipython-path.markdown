@@ -3,7 +3,7 @@ layout: post
 title:  "IPython Path"
 date:   2021-04-22 4:42
 categories: [terminal, ipython, python, directories]
-publish: true
+published: true
 description: changing python interpreter for ipython
 ---
 
