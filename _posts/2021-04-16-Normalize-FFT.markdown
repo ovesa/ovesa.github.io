@@ -23,17 +23,12 @@ Note: $$N$$ represents the total number of samples, but this number is different
 Normalization of various FT products:
 
 
-| Product | Normalization | Description|
-|------------ | ------------- | --------|
-| Fourier Transform | $$X(\omega)$$ | -Complex Valued
-                                    -Amplitude & phase information |
-| Amplitude/Magnitude | $$\frac{\mid X(\omega) \mid}{N}$$ | -The peaks value(s) of the signal in the time domain 
-                                                          -Units: Unit of the signal, say V |
-| Power Spectrum | $$\frac{\mid X(\omega) \mid^{2}}{N^2}$$ |  -Power as a function of frequency
-                                                            -Units: $$V^2$$ |
-| Power Spectral Density | $$\frac{N}{f_s}\frac{\mid X(\omega)\mid^2}{N^2} = \frac{\mid X(\omega)\mid^2}{f_S N}$$ | -Power as a function of frequency per unit frequency 
-                                      -Units: $$\frac{V^2}{Hz}$$. 
-                                      -$$f_s$$ is the sampling frequency |
+ Product | Normalization | Description
+------------ | ------------- | --------
+Fourier Transform | $$X(\omega)$$ | Complex Valued<br />Amplitude & phase information 
+Amplitude/Magnitude | $$\frac{\mid X(\omega) \mid}{N}$$ | The peaks value(s) of the signal in the time domain<br />Units: Unit of the signal, say V 
+Power Spectrum | $$\frac{\mid X(\omega) \mid^{2}}{N^2}$$ |  Power as a function of frequency<br />Units: $$V^2$$ 
+Power Spectral Density | $$\frac{N}{f_s}\frac{\mid X(\omega)\mid^2}{N^2} = \frac{\mid X(\omega)\mid^2}{f_S N}$$ | Power as a function of frequency per unit frequency<br />Units: $$\frac{V^2}{Hz}$$.<br />$$f_s$$ is the sampling frequency 
 
 
 When a window is used $w(i)$, the normalization constant for all of these quantities becomes
