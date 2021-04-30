@@ -4,8 +4,6 @@ title:  "FFT Normalization"
 date:   2021-04-16 2:06
 categories: [FFT, research note, FFT normalization]
 published: True
-
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 ---
 
 ## Research Note ~ Normalizing a Fourier Transform
