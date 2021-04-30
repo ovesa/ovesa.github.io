@@ -10,7 +10,7 @@ published: True
 
 In Python, the [forward Discrete Fourier Transform (DFT)](https://numpy.org/doc/stable/reference/routines.fft.html) for a time signal has no normalization factor while the inverse DFT has a normalization factor of $$\frac{1}{N}$$, where $$N$$ represents the total number of samples.
 
-One way to normalize the forward FT for a time series $x(t)$ is this form:
+One way to normalize the forward FT for a time series $$x(t)$$ is this form:
 
 $$X(\omega) = \frac{1}{N} \sum_{t=0}^{N-1} x(t) \exp(-i \omega t),$$
 
