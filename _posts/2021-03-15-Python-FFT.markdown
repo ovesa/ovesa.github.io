@@ -3,7 +3,7 @@ layout: post
 title:  "Python's FFT"
 date:   2021-03-15 2:06
 categories: [FFT, research note, Python]
-publish: True
+published: True
 ---
 
 ## Research Note ~ Deciphering Python's FFT
