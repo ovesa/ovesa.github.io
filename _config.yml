@@ -33,7 +33,7 @@ description: > # this means to ignore newlines until "show_exerpts:"
   The ramblings of an astronomy graduate student
 permalink: /blog/:year/:month/:day/:title/
 show_excerpts: false # set to true to show excerpts on the homepage
-markdown: kramdown
+#markdown: kramdown
 mathjax: true
 
 # Minima date format
