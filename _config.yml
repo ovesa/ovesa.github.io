@@ -32,8 +32,9 @@ url: "https://ovesa.github.io" #"localhost:4000" # the base hostname & protocol 
 description: > # this means to ignore newlines until "show_exerpts:"
   The ramblings of an astronomy graduate student
 permalink: /blog/:year/:month/:day/:title/
-show_excerpts: true # set to true to show excerpts on the homepage
-
+show_excerpts: false # set to true to show excerpts on the homepage
+markdown: kramdown
+mathjax: true
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
