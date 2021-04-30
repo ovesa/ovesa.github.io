@@ -3,7 +3,7 @@ layout: post
 title:  "FFT Normalization"
 date:   2021-04-16 2:06
 categories: [FFT, research note, FFT normalization]
-publish: True
+published: True
 ---
 
 ## Research Note ~ Normalizing a Fourier Transform
