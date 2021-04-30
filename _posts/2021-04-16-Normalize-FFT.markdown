@@ -15,8 +15,8 @@ $$X(\omega) = \frac{1}{N} \sum_{t=0}^{N-1} x(t) \exp(-i \omega t),$$
 where $\frac{1}{N}$ represents the normalization constant.
 
 Note: $N$ represents the total number of samples, but this number is different depending on the dimensionality of the FT:
-- 1-D FFTs: $N$ represets the total number of samples in the time domain
-- N-D FFTs: $N = N_x \times N_y \times N_t$ (or the size of the array)
+- 1-D FFTs: $$N$$ represets the total number of samples in the time domain
+- N-D FFTs: $$N = N_x \times N_y \times N_t$$ (or the size of the array)
 
 Normalization of various FT products:
 Product | Normalization | Description
