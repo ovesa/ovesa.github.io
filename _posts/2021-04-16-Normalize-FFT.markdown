@@ -21,6 +21,8 @@ Note: $$N$$ represents the total number of samples, but this number is different
 - N-D FFTs: $$N = N_x \times N_y \times N_t$$ (or the size of the array)
 
 Normalization of various FT products:
+
+
 Product | Normalization | Description
 ------------ | ------------- | --------
 Fourier Transform | $$X(\omega)$$ | Complex Valued \ Amplitude & phase information 
