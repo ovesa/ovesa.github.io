@@ -10,11 +10,15 @@ published: True
 
 
 In Python, the [forward Discrete Fourier Transform (DFT)](https://numpy.org/doc/stable/reference/routines.fft.html) for a time signal $a(m)$ using both numpy and scipy is represented as 
+
 $$A(k) = \sum_{m=0}^{n-1} a(m) \exp \left(-2\pi i \frac{mk}{n}\right)$$
+
 and the inverse DFT is
+
 $$a(m) = \frac{1}{n} \sum_{k=0}^{n-1} A(k) \exp \left( 2\pi i \frac{mk}{n}\right).$$
 
 The forward DFT is analagous to
+
 $$A(k) = \sum_{m=0}^{n-1} a(m) \exp (-i \omega n).$$
 
 - $$a(m)$$ corresponds to the input sequence
