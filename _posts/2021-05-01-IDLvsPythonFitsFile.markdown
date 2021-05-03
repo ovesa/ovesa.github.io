@@ -3,7 +3,7 @@ layout: post
 title:  "Array Dimensions: IDL versus Python"
 date:   2021-05-01 4:15
 categories: [research notes, coding, python, IDL]
-published: False
+published: True
 ---
 
 # Difference between arrays in Python and IDL
