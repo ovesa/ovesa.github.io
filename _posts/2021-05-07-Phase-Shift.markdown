@@ -24,6 +24,8 @@ $$\Delta \phi_{XY} = \arctan \left(  \frac{Im[X(\omega) \times Y(\omega)^*]}{Re[
 
 and it is a linear process. So, you can simply add the time delay between the two signals to the calculated phases.
 
+
+
 ## Why is the phase shift a linear process?
 
 Euler's law states that 
@@ -32,9 +34,7 @@ $$\exp(i \omega t) = \cos(\omega t) + i\sin(\omega t),$$
 
 so the phase can also be expressed as 
 
-$$\phi = \arctan \left( \frac{\sin(\omega t)}{\cos(\omega t)} \right).$$ 
-$$=  \arctan (\tan(\omega t))$$
-$$= \omega t.$$ 
+$$\phi = \arctan \left( \frac{\sin(\omega t)}{\cos(\omega t)} \right) =  \arctan (\tan(\omega t)) = \omega t.$$ 
 
 Thus, the phase shift in frequency space is a linear correction with a slope of $$t = t_d$$, the time delay. So, you can simply add the time delay to the phase difference between two signals:
 
@@ -42,7 +42,9 @@ $$\Delta \phi = \Delta \phi_{XY} + \Delta \phi_{correction}$$
 
 where 
 
-$$\Delta \phi_{correction} = -\omega t_d.$$
+$$\Delta \phi_{correction} = \omega t_d.$$
+
+
 
 ##  What does the linear phase shift mean in terms of waves?
 
