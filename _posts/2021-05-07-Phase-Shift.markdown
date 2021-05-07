@@ -22,7 +22,7 @@ The phase derived from the cross power of two signals is
 
 $$\Delta \phi_{XY} = \arctan \left(  \frac{Im[X(\omega) \times Y(\omega)^*]}{Re[X(\omega) \times Y(\omega)^*]} \right)$$
 
-and it is a linear process. So, you can simply add the time delay between the two signals to the calculated phases.
+and it is a linear process. So, you can simply add the time delay between the two signals to the calculated phases. <p></p>
 
 
 
@@ -44,7 +44,7 @@ $$\Delta \phi = \Delta \phi_{XY} + \Delta \phi_{correction}$$
 
 where 
 
-$$\Delta \phi_{correction} = \omega t_d.$$
+$$\Delta \phi_{correction} = \omega t_d.$$<p></p>
 
 
 
