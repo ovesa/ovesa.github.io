@@ -26,6 +26,8 @@ and it is a linear process. So, you can simply add the time delay between the tw
 
 
 
+
+
 ## Why is the phase shift a linear process?
 
 Euler's law states that 
@@ -43,6 +45,9 @@ $$\Delta \phi = \Delta \phi_{XY} + \Delta \phi_{correction}$$
 where 
 
 $$\Delta \phi_{correction} = \omega t_d.$$
+
+
+
 
 
 
