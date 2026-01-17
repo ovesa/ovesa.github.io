@@ -30,7 +30,10 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify
+        run: | hugo --minify
+    echo "---- public/ (top) ----"
+    ls -la public | head -n 50
+    test -f public/index.html
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
