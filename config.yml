@@ -2,6 +2,11 @@ baseURL: "https://ovesa.github.io/"
 title: Oana Vesa
 theme: PaperMod
 
+caches:
+  images:
+    dir: :cacheDir/images
+
+
 enableInlineShortcodes: true
 enableRobotsTXT: true
 pagination:
