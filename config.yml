@@ -1,4 +1,4 @@
-baseURL:  "https://ovesa.github.io/"
+baseURL: "https://ovesa.github.io/"
 title: Oana Vesa
 theme: PaperMod
 
@@ -67,7 +67,7 @@ params:
             - name: Research
               url: research
             - name: Papers
-              url : papers
+              url: papers
             - name: SciCom
               url: scicom
             - name: Notes
