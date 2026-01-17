@@ -1,4 +1,4 @@
-baseURL = "https://ovesa.github.io"
+baseURL:  "https://ovesa.github.io/"
 title: Oana Vesa
 theme: PaperMod
 
