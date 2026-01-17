@@ -1,0 +1,112 @@
+baseURL: "https://ovesa.github.io/" 
+title: Oana Vesa
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+pagination:
+  pagerSize: 20
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        - name: About Me
+          url: intro
+          weight: 1
+        - name: Papers
+          url: papers
+          weight: 3
+        - name: Research
+          url: research
+          weight: 2
+        - name: Notes
+          url: notes/
+          weight: 4 
+        - name: SciCom
+          url: scicom
+          weight: 5
+
+params:
+    description: "This website hosts Oana Vesa's research papers, curriculum vitae, and contact information."
+    author: Oana Vesa
+    # googleAnalyticsID: "G-XXXXX"
+    DateFormat: "January 2006"
+    defaultTheme: light
+    hideFooter: false
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowAllPagesInArchive: false
+    MainSections: ["books","courses","papers","data"]
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: Oana Vesa
+          subtitle: "I am a postdoctoral researcher at Stanford University in the Solar Group in the W. W. Hansen Experimental Physics Laboratory (HEPL). My research interests are waves, magnetic fields, and dynamics across the solar interior and atmosphere."
+          imageUrl: "profile_pic_AUG2024.jpg"
+          imageWidth: 160
+          imageHeight: 160
+          buttons:
+            #- name: Papers
+             # url: papers/
+            - name: About Me
+              url: intro
+            - name: Research
+              url: research
+            - name: Papers
+              url : papers
+            - name: SciCom
+              url: scicom
+            - name: Notes
+              url: notes/
+            - name: Tags
+              url: tags/
+
+    socialIcons:
+        - name: CV
+          url: cv.pdf
+        - name: Email
+          url: mailto:ovesa@stanford.edu
+        - name: Google Scholar
+          url: https://scholar.google.com/citations?user=YNUpbSoAAAAJ&hl=en
+        - name: GitHub
+          url: https://github.com/ovesa
+        - name: ORCID
+          url: https://orcid.org/0000-0001-6754-1520
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/oanavesa/
+
+    assets:
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+      text: "Oana Vesa"
+      icon: favicon.ico
+      iconHeight: 18
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn 
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2
