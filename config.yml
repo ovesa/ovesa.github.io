@@ -10,7 +10,7 @@ caches:
 enableInlineShortcodes: true
 enableRobotsTXT: true
 pagination:
-  pagerSize: 20
+  pagerSize: 60
 
 taxonomies:
     tag: tags
